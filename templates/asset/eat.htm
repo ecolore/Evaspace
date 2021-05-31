@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Health</title>
+<link href="basic.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	width:212px;
+	height:268px;
+	z-index:1;
+	font-size:1.5em;
+	background:#eee;
+	color:#000;
+	display:none;
+	border-width: 4px;
+	border-color: #000;
+	padding:7px;
+}
+-->
+</style>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $('img').hover(function(){
+   	$('#apDiv1').show();
+	$(this).offset();
+	});
+	$('#apDiv1').hover(function(){$(this).hide();});
+});
+</script>
+</head>
+
+<body>
+<div id="wrap">
+        <div id="leftnav">
+          <ul >
+            <li> <a href="intro.htm" title="warming">Introduction</a></li>
+            <li class="itemActive" title="trans-fat">Wealth</a></li>
+            <li> <a href="care.htm" title="流浪狗">Sympathy</a></li>
+            <li><a href="conserve.htm" title="節能">Resource　</a></li>
+            <li><a href="e-design.htm" title="eco design">e-style</a>　　　</li>
+          </ul>
+  </div>
+        <div id="content"><h2 class="soft">Wealth＝Health<br />萬物都健全其實才是財富的真相</h2>
+          <div id="apDiv1"><table cellspacing="0" width="200" border="2">
+  <tr>
+    <td>&nbsp;Ｎutrition Fact<br /></td>
+  </tr>
+  <tr>
+    <td>Carbohydrate<br />&nbsp;</td>
+  </tr>
+ <tr>
+    <td>Total Fat&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;Saturated Fat</td>
+  </tr>
+  <tr>
+    <td>&nbsp;Trans-fat<em>0.2g</em></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table></div>
+          <div><img src="img/01.jpg"/></div>
+        <div><img src="img/02.jpg" /></div>
+        <div><img src="img/03.jpg" /></div>
+  </div>
+</div>
+</body>
+</html>

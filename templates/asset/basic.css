@@ -1,0 +1,132 @@
+@charset "utf-8";
+body{margin:0px;
+	background-image: url(img/clef-basstreble.png);
+	background-repeat:no-repeat;
+	background:#000;
+}	
+#wrap {
+	background-color: #000;
+	font-family: "微軟正黑體", sans-serif, "新細明體";
+	font-size: 15px;
+	color: #FFD;
+	margin:0px;
+	width:950px;
+	height:100%;
+	border-style: none;
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+div{
+/*	border-width: 1px;
+*/}
+#wrap #leftnav li {
+	background-color: #99CC33;
+	display: block;
+	list-style-position: inside;
+	list-style-type: none;
+	height: 2em;
+	width: 170px;
+	font-family: Verdana, sans-serif;
+	border-style:outset;
+	letter-spacing: 0.1em;
+	border-top-width: 4px;
+	padding: 7px;
+	margin-top:10px;
+	margin-left:0px;
+	font-variant: small-caps;
+	text-align:center;
+	
+}
+#wrap #leftnav ul {
+	padding-left: 0px;
+	margin:0px;
+	z-index:4;
+}
+#head{
+	background-image:url(img/cities.gif);
+	background-position: -100px -40px;
+	height:78px;
+	filter: Invert;
+}
+#mid{
+border:skyblue;
+margin:auto;
+width:inherit;
+/*height:583px;
+*/
+}
+#leftnav{
+	width:190px;
+	float:left;
+	padding-left:0px;
+	z-index:4;
+}
+#content{
+	width:530px;
+	overflow:visible;
+	padding:12px;
+	float:left;
+	margin: auto;
+	height: 400px;
+}
+#foot{
+	width:100%;
+	clear:both;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:lightgoldenrodyellow;
+	filter: Shadow(Color=yellow);
+	font-size:1.3em;
+	font-weight:bold;
+}
+a:hover{
+	color: white;
+	font-weight:bold;
+	text-shadow:#71A9BB;
+	letter-spacing:0em;
+}
+p a{
+	color:aqua;
+}
+h1{
+color:#99FFFF;
+}
+h3{background:#CCCCCC;
+color:black;
+}
+label{
+display:marker;
+background:#663300;
+color:#F4C430;
+}
+.soft{
+	background:#F4C430;
+	color: #663300;
+	font-family:Verdana, sans-serif;
+}
+.ie_opac{
+ filter:alpha(opacity=30);
+ opacity:0.3;
+ -moz-opacity:0.3;
+ z-index:0;
+}
+.pile{
+	position: absolute;
+}
+.itemActive{border-style:none;
+border-width:0px;
+background-color:#669900;
+color:#690;
+font-weight:bold;
+}
+#wrap #content div img {
+	float: left;
+	height: 180px;
+	width: 240px;
+	margin: 12px;
+}
+.shadow{
+color:#fff;
+}
