@@ -24,7 +24,17 @@
   </div>
   <div id="content"><h3 class="soft">工業和家庭活動如何產生環境問題</h3>
 <div class="ie_opac pile"><img src="http://recipesforourdailybread.files.wordpress.com/2012/08/globe-transparent-copy-3.png?w=600&h=600" /></div><div class="pile">
-<p>{% for collection in collections %} {{ collection.dt_str}} <br> {% endfor %}
+<p>
+
+<form method="post">
+    {% csrf_token %}
+   {{ form.as_p }}
+   <input type="submit" value="Save">
+</form>
+
+ {% extends 'templates/base.html' %}
+{% block content %}
+{% for collection in collections %} {{ collection.title}  {collection.artist}} <br> {% endfor %}{% endblock %}
 </p>
 <p>一日之所需，百工斯為備。飲水思源，對每一行常懷感謝。<br />
   當然也要想到面臨取盡用竭的自然資源。<br />用得少，成本相對也低。</p>
