@@ -6,7 +6,7 @@ from infosrc import Fetchdf
 # import json
 #import pandas as pd
 
-# url = "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=sweet%20potato"
+# url = ""
 # r=requests.get(url)
 # df = pd.json_normalize(r.json(),record_path=['foods'])
 df=Fetchdf().df
